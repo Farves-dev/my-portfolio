@@ -82,7 +82,7 @@ const Home = () => {
               <span className="mas text-text-color px-4 py-2">Download CV</span>
 
               <a
-                href="../src/assets/wa.pdf"
+                href="../src/assets/Resume.pdf"
                 id="work"
                 type="button"
                 name="Hover"
