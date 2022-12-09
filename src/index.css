@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+:root {
+  --orange-d: #ffc17f;
+  --orange-l: #ffcfa1;
+
+  --black: #1c1c1c;
+  --white: #fff;
+}
+
+.dark {
+  --black: #fff;
+  --white: #1c1c1c;
+  --orange-d: #847b69;
+  --orange-l: #a59b87;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Choco Chici;
+  src: url("./assets/fonts/ChocoChici-2OMyW.ttf");
+}
+@font-face {
+  font-family: Rassain;
+  src: url("./assets/fonts/Rassain-nROnY.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Akaya Telivigala", "Sans-Serif";
+  color: var(--black);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bg {
+  background-image: linear-gradient(to right, var(--orange-l), var(--white));
+}
+
+.head-bounce {
+  animation: bounce 1s linear infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  53%,
+  80%,
+  100% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+  40% {
+    transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -6px, 0);
+  }
+  70% {
+    transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -4px, 0);
+  }
+  90% {
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+.scroll-container {
+  position: fixed;
+  will-change: transform;
+  right: 0;
+  left: 0;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background-color: var(--orange-d);
+}

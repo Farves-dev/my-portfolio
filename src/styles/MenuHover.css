@@ -1,0 +1,16 @@
+.inverted-1 {
+  background: radial-gradient(circle 12px at 50% 75%, #fff 95%, #000),
+    radial-gradient(circle 12px at 50% 75%, var(--white) 95%, #0000), #000;
+  -webkit-background-clip: text, padding-box, text;
+  background-clip: text, padding-box, text;
+  background-size: 100% 200%;
+  background-position: top;
+  background-repeat: repeat-x;
+  transition: 0.3s, background-position 0.3s 0.3s;
+}
+
+.inverted-1:hover {
+  background-size: 15% 200%;
+  background-position: bottom;
+  transition: 0.3s, background-size 0.3s 0.3s;
+}

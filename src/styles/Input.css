@@ -1,0 +1,56 @@
+.input-box {
+  position: relative;
+  width: 280px;
+}
+
+.input-box input {
+  width: 100%;
+  padding-block: 7px;
+  padding-inline: 9px;
+  border: 1px solid var(--black);
+  background: var(--white);
+  border-radius: 0.2rem;
+  outline: none;
+  transition: 0.5s;
+}
+textarea {
+  width: 100%;
+  border: 1px solid var(--black);
+  background: var(--white);
+  border-radius: 0.2rem;
+  outline: none;
+  transition: 0.5s;
+  resize: none;
+}
+
+.input-box span {
+  position: absolute;
+  left: 0;
+  padding: 7px;
+  margin-left: 9px;
+  padding-left: 3px;
+  pointer-events: none;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-box input:valid ~ span,
+.input-box input:focus ~ span {
+  color: var(--black);
+  transform: translateX(11px) translateY(-14px);
+  font-size: 1rem;
+  padding: -0px 7px;
+  background: var(--orange-d);
+  letter-spacing: 0.2em;
+  border-radius: 3px;
+}
+.input-box textarea:valid ~ span,
+.input-box textarea:focus ~ span {
+  color: var(--black);
+  transform: translateX(11px) translateY(-14px);
+  font-size: 1rem;
+  padding: 0 7px;
+  background: var(--orange-d);
+  letter-spacing: 0.2em;
+  border-radius: 3px;
+}

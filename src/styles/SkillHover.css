@@ -1,0 +1,266 @@
+.trapdoor {
+  -webkit-transform: translateZ(0px);
+  -webkit-font-smoothing: antialiased;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* margin-left: -100px;
+  margin-top: -25px; */
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset -7px 0px 12px -8px var(--black),
+    inset 7px 0px 12px -8px var(--black);
+  background: var(--black);
+  -webkit-transition: background 400ms ease-in-out;
+  -moz-transition: background 400ms ease-in-out;
+  -ms-transition: background 400ms ease-in-out;
+  -o-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
+}
+.trapdoor:hover {
+  background: var(--white);
+}
+.trapdoor:hover .door {
+  box-shadow: 0px 0px 10px -2px var(--black);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.trapdoor:hover .top {
+  top: -50%;
+}
+.trapdoor:hover .bottom {
+  top: 100%;
+}
+.trapdoor .twitter-follow-button {
+  margin-left: -77px;
+  margin-top: -14px;
+  left: 50%;
+  top: 50%;
+}
+
+.top {
+  top: 0%;
+  left: 0px;
+}
+.top:before {
+  top: 5px;
+}
+
+.bottom {
+  top: 50%;
+  left: 0px;
+}
+.bottom:before {
+  top: -20px;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.door {
+  -webkit-transition: top 400ms, box-shadow 200ms, -webkit-transform 300ms;
+  -moz-transition: top 400ms, box-shadow 200ms, -moz-transform 300ms;
+  -ms-transition: top 400ms, box-shadow 200ms, -ms-transform 300ms;
+  -o-transition: top 400ms, box-shadow 200ms, -o-transform 300ms;
+  transition: top 400ms, box-shadow 200ms, transform 300ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  background-color: var(--white);
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  height: 50%;
+}
+.door:before {
+  position: absolute;
+  background: url("../assets/images/html.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+
+.css::before {
+  position: absolute;
+  background: url("../assets/images/css.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.js::before {
+  position: absolute;
+  background: url("../assets/images/javascript.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.react::before {
+  position: absolute;
+  background: url("../assets/images/react.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.next::before {
+  position: absolute;
+  background: url("../assets/images/nextjs.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.sass::before {
+  position: absolute;
+  background: url("../assets/images/sass.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.tail::before {
+  position: absolute;
+  background: url("../assets/images/tailwind.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.styled::before {
+  position: absolute;
+  background: url("../assets/images/styled-components.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.redux::before {
+  position: absolute;
+  background: url("../assets/images/redux.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.git::before {
+  position: absolute;
+  background: url("../assets/images/github.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.npm::before {
+  position: absolute;
+  background: url("../assets/images/npm.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.api::before {
+  position: absolute;
+  background: url("../assets/images/api.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.res::before {
+  position: absolute;
+  background: url("../assets/images/responsive.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.vite::before {
+  position: absolute;
+  background: url("../assets/images/vite.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.agile::before {
+  position: absolute;
+  background: url("../assets/images/agile.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.illu::before {
+  position: absolute;
+  background: url("../assets/images/illustrator.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.photo::before {
+  position: absolute;
+  background: url("../assets/images/photo.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
+.figma::before {
+  position: absolute;
+  background: url("../assets/images/figma.png") no-repeat center;
+  background-size: contain;
+  margin-left: -20px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 50%;
+}
