@@ -10,7 +10,7 @@ const Footer = () => {
         <p className="text-3xl sm:text-[1.65rem] md:text-3xl">
           I'm always up for a chat
         </p>
-        <p>farvessafiyudeen@gmail11.com</p>
+        <p>farvessafiyudeen11@gmail.com</p>
       </div>
 
       <a
