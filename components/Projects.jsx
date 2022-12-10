@@ -38,9 +38,9 @@ const Projects = () => {
 
           <m.p variants={textAnimate} className="md:text-justify">
             Juice World is an amazing fresh juice ordering web app. You can get
-            different variety of fresh juices through ordering from this app.
-            You can pay online via stripe payment method or you can pay after
-            receiving you energetic fresh juice as on delivery.
+            different variety of fresh juices by ordering from this app.
+            You can pay online via the stripe payment method or you can pay after
+            receiving your energetic fresh juice on delivery.
           </m.p>
 
           <m.h4
@@ -137,8 +137,8 @@ const Projects = () => {
           </m.h3>
 
           <m.p variants={textAnimate} className="md:text-justify">
-            Musicana is a music player web app. You can listen any song you
-            want. Also you can choose between genres.
+            Musicana is a music player web app. You can listen to any song you
+            want. Also, you can choose between genres.
           </m.p>
 
           <m.h4
@@ -237,7 +237,7 @@ const Projects = () => {
 
           <m.p variants={textAnimate} className="md:text-justify">
             Getimage is a beautiful wallpaper web app to get amazing images. You
-            can get different variety of quality image by searching.
+            can get different variety of quality images by searching.
           </m.p>
 
           <m.h4
@@ -326,7 +326,7 @@ const Projects = () => {
           </m.h3>
 
           <m.p variants={textAnimate} className="md:text-justify">
-            Disney plus clone is cloning of disney plus web app using firebase.
+            Disney plus clone is the cloning of the Disney plus web app using firebase.
           </m.p>
 
           <m.h4
