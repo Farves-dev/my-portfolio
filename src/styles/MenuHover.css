@@ -1,6 +1,6 @@
 .inverted-1 {
-  background: radial-gradient(circle 12px at 50% 75%, #fff 95%, #000),
-    radial-gradient(circle 12px at 50% 75%, var(--white) 95%, #0000), #000;
+  background: radial-gradient(circle 12px at 50% 75%, rgb(255, 255, 255) 95%, #000),
+    radial-gradient(circle 12px at 50% 75%, var(--orange-l) 95%, #0000), #000;
   -webkit-background-clip: text, padding-box, text;
   background-clip: text, padding-box, text;
   background-size: 100% 200%;
